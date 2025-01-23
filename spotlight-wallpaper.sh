@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 bg_dir="$HOME/.local/share/backgrounds"
 spotlight_img="$bg_dir/spotlight-$(date -Iminute).jpg"
 blurred_img="$bg_dir/.spotlight-$(date -Iminute)-blurred.jpg"
